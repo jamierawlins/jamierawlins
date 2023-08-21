@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jamie's Portfolio">
+
+  <title>Jamie's Portfolio</title>
+
+  <!-- Fav Icon -->
+  <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png">
+
+  <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- All CSS files -->
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+
+
+<body onload="return randomColor()" class="fentimansBg">
+    <header>
+        <div><a href="index.html">JAMIE <span class="change">CREATES</span></a></div>
+        <nav>
+            <ul>
+                <li><a href="work.html">WORK</a></li>
+                
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <img class="laptop-img" src="assets/images/laptop/fent.png" alt="">
+        <section class="project-wrap">
+            <div class="project">
+                
+                
+                
+                <h1>Fentimans</h1>
+                <div class="project-requirements">
+                    <div class="intro">
+                        <h2>The Brief</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                    </div>
+                    <div class="project-intro">
+                        <h2>What I did</h2>
+                        <ul>
+                            <li>Figma UI Design</li>
+                            <li>Shopify Build</li>
+                            <li>Adimo integration</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <img class="full-site" src="assets/images/fullpage/fents-home.png" alt="">
+               
+            </div>
+        </section>
+        <section  class="mockup-img-wrap">
+            <img class="mockup-img" src="assets/images/mockups/fents-Mockup.png" alt="">
+        </section>
+        <section class="back-to-work">
+            <a href="work.html">BACK TO ALL WORK</a>
+        </section>
+    </main>   
+    <footer>
+        <h3>Get in touch</h3>
+        <div class="social">
+            👉
+            <a href="mailto:jamie.rawlins1@gmail.com">Email</a>
+            <a href="tel:07950406554">07950 406 554</a>
+            <a href="https://www.instagram.com/jamierawlins/">IG</a>
+            <a href="https://www.linkedin.com/in/jamie-rawlins-6777576/">LI</a>
+            <a href="#">C.V</a>
+            <a href="https://open.spotify.com/user/mrjrawlins?si=965499fd18ba4691">SP</a>
+            👈
+        </div>
+        <div class="copyright">
+            <p>© 2023 JAMIE CREATES. All work created Freelance, or for MOJO</p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script>
+        function randomColor() {
+    var color = '#';
+    var colorCode = ['ffaf40','2A9BFB','ff5967','7870cc','33ccbf']; // colors
+    var className = document.getElementsByClassName("change"); // class name to random color
+    var i;
+    color += colorCode[Math.floor(Math.random() * colorCode.length)];
+  for (var i = 0; i < className.length; i ++) {
+      className[i].style.backgroundColor = color; }
+}
+    </script>
+</body>
