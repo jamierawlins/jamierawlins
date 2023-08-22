@@ -132,6 +132,18 @@ header{
     color:white;
     padding:0 .2rem;
 }
+.highlightOne{
+    background:peachpuff;
+    padding:0 .2rem;
+}
+.highlightTwo{
+    background:#dcb5dc;
+    padding:0 .2rem;
+}
+.highlightThree{
+    background:#92ce92;
+    padding:0 .2rem;
+}
 header nav ul{
     display: flex;
     flex-direction: row;
@@ -201,6 +213,7 @@ section{
     text-align: center;
     display: inline-block;
 }
+
 @media only screen and (min-width: 992px) {
     .home-intro{
         display:flex;
@@ -213,7 +226,7 @@ section{
         margin-left: 5%;
     }
     .home-intro h1,
-    .home-intro p{
+    .home-intro .intro-para{
         flex:1;
     }  
     .about{
