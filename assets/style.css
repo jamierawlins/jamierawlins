@@ -52,7 +52,7 @@ h1{
     font-family: 'Poppins', sans-serif;
     font-weight:700;
     color:#242424;
-    animation: fadeUpAnimation ease 1.5s;
+    animation: fadeUpAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     position:relative;
@@ -143,7 +143,7 @@ header a{
     margin:1em 0 3em 0;
     font-family: 'Poppins', sans-serif;
     font-weight:700;
-    font-size: 5.5vw;
+    font-size: 7.5vw;
     color:grey;
     text-decoration: none;
     cursor:pointer;
@@ -167,6 +167,7 @@ section{
     flex-direction: column;
     padding: 10em 10%;
     background: #242424;
+    margin:0;
 }
 .skill-wrap{
     display:flex;
@@ -374,10 +375,15 @@ section{
 }
 .project-requirements{
     display: flex;
-    margin: 4em 0 8em 0;
+    margin: 4em 0 4em 0;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+}
+@media only screen and (min-width: 820px) {
+    .project-requirements{
+        margin: 4em 0 8em 0;
+    }
 }
 @media only screen and (min-width:1500px) {
     .project-requirements{
@@ -461,9 +467,20 @@ section{
 }
 section.mockup-img-wrap{
     margin:0 0 4em 0;
-}
-.mockup-img{
     width:100%;
+    overflow:hidden;
+}
+
+.mockup-img{
+    width: 150%;
+    left: -25%;
+    position: relative;
+}
+@media only screen and (min-width: 820px) {
+    .mockup-img{
+        width: 100%;
+        left: 0%;
+    }
 }
 
 .fentimansBg{
@@ -476,6 +493,13 @@ footer .social{
     justify-content: center;
     align-items: center;
     font-size: clamp(1.4rem, 2vw, 1.2rem);
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+@media only screen and (min-width: 820px) {
+    footer .social{
+        flex-direction: row;
+    }
 }
 footer .social a{
     padding:1em;
@@ -507,4 +531,27 @@ footer h3{
     font-size: clamp(1rem, 2vw, 1.2rem);
     color:grey;
     text-align: center;
+}
+
+.owl-carousel {
+    overflow:hidden;
+  }
+
+
+
+
+.mobile{
+    display:block;
+}
+.desk{
+    display:none;
+}
+@media only screen and (min-width: 820px) {
+    .mobile{
+        display:none;
+    }
+    .desk{
+        display:block;
+    }
+
 }
