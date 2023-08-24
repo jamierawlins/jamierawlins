@@ -1,133 +1,145 @@
+<!-- @format -->
+
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Jamie's Portfolio" />
+		<title>Jamie's Portfolio</title>
+		<!-- Fav Icon -->
+		<link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+		<!-- All CSS files -->
+		<link rel="stylesheet" href="./assets/css/style.css" />
+	</head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Jamie's Portfolio">
-
-  <title>Jamie's Portfolio</title>
-
-  <!-- Fav Icon -->
-  <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png">
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-
-  <!-- All CSS files -->
-  <link rel="stylesheet" href="assets/style.css">
-</head>
-
-
-<body onload="return randomColor()" onload="return randomColorTwo()" class="home">
-    <header>
-        <div><a href="index.html">JAMIE <span class="change">CREATES</span></a></div>
-        <nav>
-            <ul>
-                <li><a href="work.html">WORK</a></li>
-            </ul>
-
-        </nav>
-    </header>
-    <main>
-        <section class="home-intro">
-            <h1>I am a digital designer, and It's been that way for over 15 years.</h1>
-            <div class="intro-para">  
-                <p>Hi, I'm Jamie. I've been designing websites and products for over 15 years. I've worked with a pretty ecclectic mix of clients, from award winning bars to award winning supermarkets (and everything else in-betweeen).</p>
-                <p>There's some pieces of work I'm pretty pleased with below, and if that's not enough for you, scroll down even further to read me really blow my trumpet!</p>
-            </div>
-        </section>
-        <section class="projects">
-            <div class="project">
-                <a href="fents.html">
-
-                    <img src="assets/images/work/work-fents.jpg" alt="Fentimans Drink on a table">
-                    <div class="project-intro-copy">
-                        <h2>Fentimans</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                    </div>
-                </a>
-            </div>
-            <div class="project">
-                <a href="whitley-neill.html">
-                    <img src="assets/images/denver-steak.jpg" alt="">
-                    <div class="project-intro-copy">
-                        <h2>Wyndford Wagyu</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                    </div>
-                </a>
-            </div>
-        </section>
-        <section class="about">
-            <h2>About me!</h2>
-            <p>My main focus and passion is solving problems and delivering products that <span class="highlightOne">heighten the user's experience</span> and manage their needs. I believe open communication is key to a successful project, and I treat every project differently as each has its own target audience, requirements and goals.</p>
-            <p>I am a committed <span class="highlightTwo">client facing</span> team player who loves finding new technologies, new ways of working, and enjoys the constant <span class="highlightThree">learning challenges</span> that come with being a digital designer.</p>
-            <p>Based in the High Peak, I am a 35 min train commute to Manchester</p>
-            <img src="assets/images/passport-photo.jpg" alt="">
-        </section>
-        <section class="skills">
-            <h2>Skills</h2>
-            <div class="skill-wrap">
-                <div class="div">
-                <h3>Tools used</h3>
-                <ul>
-                    <li>Figma/Sketch</li>
-                    <li>VS Code/Sublime</li>
-                    <li>HTML5</li>
-                    <li>CSS</li>
-                    <li>Photoshop</li>
-                    <li>Illustrator</li>
-                    <li>InDesign</li>
-                    
-                    <li>Canva</li>
-                </ul>
-                </div>
-                <div class="div">
-                <h3>Applications used</h3>
-                <ul>
-                    <li>Shopify</li>
-                    <li>Wordpress</li>
-                    <li>Netlify</li>
-                    <li>DeployHq</li>
-                    <li>git</li>
-                    <li>Sourcetree</li>
-                    <li>Campaign Monitor / Mailchimp</li>
-                </ul>
-            </div>
-        </div>
-            
-        </section>
-    </main>   
-    <footer>
-        <h3>Get in touch</h3>
-        <div class="social">
-            <span class="desk">👉</span>
-            <span class="mobile">👇</span>
-            <a target="_top" href="mailto:jamie.rawlins1@gmail.com">Email</a>
-            <a href="tel:07950406554">07950 406 554</a>
-            <a href="https://www.instagram.com/jamierawlins/">IG</a>
-            <a href="https://www.linkedin.com/in/jamie-rawlins-6777576/">LI</a>
-            <a href="./assets/jamie-rawlins_cv.pdf">C.V</a>
-            <a href="https://open.spotify.com/user/mrjrawlins?si=965499fd18ba4691">SP</a>
-            <span class="desk">👈</span>
-            <span class="mobile">👆</span>
-        </div>
-        <div class="copyright">
-            <p>© 2023 JAMIE CREATES. All work created Freelance, or at MOJO</p>
-        </div>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-    <script>
-        function randomColor() {
-    var color = '#';
-    var colorCode = ['ffaf40','2A9BFB','ff5967','7870cc','33ccbf']; // colors
-    var className = document.getElementsByClassName("change"); // class name to random color
-    var i;
-    color += colorCode[Math.floor(Math.random() * colorCode.length)];
-  for (var i = 0; i < className.length; i ++) {
-      className[i].style.backgroundColor = color; }
-}</script>
-</body>
+	<body onload="return randomColor()" onload="return randomColorTwo()" class="home">
+		<header>
+			<div>
+				<a href="index.html">
+					JAMIE
+					<span class="change">CREATES</span>
+				</a>
+			</div>
+			<nav>
+				<ul>
+					<li>
+						<a href="work.html">WORK</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section class="home-intro">
+				<h1>I am a digital designer, and It's been that way for over 15 years.</h1>
+				<div class="intro-para">
+					<p>Hi, I'm Jamie. I've been designing websites and products for over 15 years. I've worked with a pretty ecclectic mix of clients, from award winning bars to award winning supermarkets (and everything else in-betweeen).</p>
+					<p>There's some pieces of work I'm pretty pleased with below, and if that's not enough for you, scroll down even further to read me really blow my trumpet!</p>
+				</div>
+			</section>
+			<section class="projects">
+				<div class="project">
+					<a href="fents.html">
+						<img src="assets/images/work/fentimans/work-fents.jpg" alt="Fentimans Drink on a table" />
+						<div class="project-intro-copy">
+							<h2>Fentimans</h2>
+							<p>Creating an ever growing platform for one of the UK's best drinks brannds.</p>
+						</div>
+					</a>
+				</div>
+				<div class="project">
+					<a href="whitley-neill.html">
+						<img src="assets/images/denver-steak.jpg" alt="" />
+						<div class="project-intro-copy">
+							<h2>Wyndford Wagyu</h2>
+							<p>One of the UK's most respected farmers of top-grade Wagyu Beef</p>
+						</div>
+					</a>
+				</div>
+			</section>
+			<section class="about">
+				<h2>About me!</h2>
+				<p>
+					My main focus and passion is solving problems and delivering products that
+					<span class="highlightOne">heighten the user's experience</span>
+					and manage their needs. I believe open communication is key to a successful project, and I treat every project differently as each has its own target audience, requirements and goals.
+				</p>
+				<p>
+					I am a committed
+					<span class="highlightTwo">client facing</span>
+					team player who loves finding new technologies, new ways of working, and enjoys the constant
+					<span class="highlightThree">learning challenges</span>
+					that come with being a digital designer.
+				</p>
+				<p>Based in the High Peak, I am a 35 min train commute to Manchester</p>
+				<img src="assets/images/passport-photo.jpg" alt="" />
+			</section>
+			<section class="skills">
+				<h2>Skills</h2>
+				<div class="skill-wrap">
+					<div class="div">
+						<h3>Tools used</h3>
+						<ul>
+							<li>Figma/Sketch</li>
+							<li>VS Code/Sublime</li>
+							<li>HTML5</li>
+							<li>CSS</li>
+							<li>Photoshop</li>
+							<li>Illustrator</li>
+							<li>InDesign</li>
+							<li>Canva</li>
+						</ul>
+					</div>
+					<div class="div">
+						<h3>Applications used</h3>
+						<ul>
+							<li>Shopify</li>
+							<li>Wordpress</li>
+							<li>Netlify</li>
+							<li>DeployHq</li>
+							<li>git</li>
+							<li>Sourcetree</li>
+							<li>Campaign Monitor / Mailchimp</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<h3>Get in touch</h3>
+			<div class="social">
+				<span class="desk">👉</span>
+				<span class="mobile">👇</span>
+				<a target="_top" href="mailto:jamie.rawlins1@gmail.com">Email</a>
+				<a href="tel:07950406554">07950 406 554</a>
+				<a href="https://www.instagram.com/jamierawlins/">IG</a>
+				<a href="https://www.linkedin.com/in/jamie-rawlins-6777576/">LI</a>
+				<a href="./assets/jamie-rawlins_cv.pdf">C.V</a>
+				<a href="https://open.spotify.com/user/mrjrawlins?si=965499fd18ba4691">SP</a>
+				<span class="desk">👈</span>
+				<span class="mobile">👆</span>
+			</div>
+			<div class="copyright">
+				<p>© 2023 JAMIE CREATES. All work created Freelance, or at MOJO</p>
+			</div>
+		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+		<script>
+			function randomColor() {
+				var color = "#";
+				var colorCode = ["ffaf40", "2A9BFB", "ff5967", "7870cc", "33ccbf"]; // colors
+				var className = document.getElementsByClassName("change"); // class name to random color
+				var i;
+				color += colorCode[Math.floor(Math.random() * colorCode.length)];
+				for (var i = 0; i < className.length; i++) {
+					className[i].style.backgroundColor = color;
+				}
+			}
+		</script>
+	</body>
+</html>
