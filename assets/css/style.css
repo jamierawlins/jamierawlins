@@ -651,8 +651,13 @@ footer h3 {
 
 .owl-carousel {
 	overflow: hidden;
+	background: transparent !important;
 }
-
+.owl-carousel .owl-item img {
+	display: block;
+	width: 80%;
+	margin: 0 10%;
+}
 .mobile {
 	display: block;
 }

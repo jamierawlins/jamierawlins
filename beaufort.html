@@ -31,7 +31,7 @@
 			</div>
 			<nav>
 				<ul>
-					<li><a href="work.html">WORK</a></li>
+					<li><a href="work.html">WORK ></a></li>
 				</ul>
 			</nav>
 		</header>
@@ -54,35 +54,28 @@
 							</ul>
 						</div>
 					</div>
-					<img class="full-site" src="assets/images/fullpage/fents-home.png" alt="" />
+					<!-- <img class="full-site" src="assets/images/work/beaufort/beaufort-home.jpg" alt="" /> -->
 				</div>
 			</section>
 			<section class="mockup-img-wrap">
-				<img class="mockup-img" src="assets/images/mockups/fents-Mockup.png" alt="" />
+				<img class="mockup-img" src="assets/images/work/beaufort/beaufort-Mockup.png" alt="" />
 			</section>
 			<div class="slider">
-				<!-- Slider main container -->
 				<div class="owl-carousel owl-theme" style="background: white">
 					<div>
-						<img src="./assets/images/work/schofields/carousel/schofields-carousel_01.png" alt="The Clumsies social post for Schofields" />
+						<img src="assets/images/work/beaufort/carousel/beau_01.png" />
 					</div>
 					<div>
-						<img src="./assets/images/work/schofields/carousel/schofields-carousel_02.png" alt="The Clumsies behind the bar at SCHOFIELDS Manchester" />
+						<img src="assets/images/work/beaufort/carousel/beau_02.png" />
 					</div>
 					<div>
-						<img src="./assets/images/work/schofields/carousel/schofields-cocktail_01.webp" alt="SCHOFIELDS cocktail" />
+						<img src="assets/images/work/beaufort/carousel/beau_03.png" />
 					</div>
 					<div>
-						<img src="./assets/images/work/schofields/carousel/schofields-carousel_03.png" alt="Satans Whiskers social post for Schofields" />
+						<img src="assets/images/work/beaufort/carousel/beau_04.png" />
 					</div>
 					<div>
-						<img src="./assets/images/work/schofields/carousel/schofields-carousel_04.png" alt="Satans Whiskers behind the bar at SCHOFIELDS Manchester" />
-					</div>
-					<div>
-						<img src="./assets/images/work/schofields/carousel/schofields-cocktail_02.webp" alt="SCHOFIELDS cocktail" />
-					</div>
-					<div>
-						<img src="./assets/images/work/schofields/carousel/schofields-carousel_05.png" alt="ATTABOY social post for Schofields" />
+						<img src="assets/images/work/beaufort/carousel/beau_05.png" />
 					</div>
 				</div>
 			</div>
@@ -125,37 +118,19 @@
 		<script>
 			$(document).ready(function () {
 				$(".owl-carousel").owlCarousel({
-					items: 3,
-					navigation: true, // Show next and prev buttons
-					slideSpeed: 500,
-					paginationSpeed: 500,
 					loop: true,
-					controls: false,
-					autoPlayTimeout: 20,
-
-					autoPlay: 2000,
-					navigation: false,
-				});
-				$(".owl-carousel-two").owlCarousel({
-					items: 1,
-					slideSpeed: 500,
-					paginationSpeed: 500,
-					loop: true,
-					controls: false,
-					responsiveClass: true,
+					margin: 150,
+					padding: 150,
+					nav: true,
 					responsive: {
 						0: {
 							items: 1,
-							nav: true,
 						},
 						600: {
 							items: 3,
-							nav: false,
 						},
 						1000: {
 							items: 5,
-							nav: true,
-							loop: false,
 						},
 					},
 				});
